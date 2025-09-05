@@ -38,31 +38,13 @@ button:hover {
   background-color: #2980b9;
 }
 
-img {
-  max-width: 100%;         /* makes it responsive */
-  height: auto;
-  border-radius: 8px;      /* rounded corners */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* subtle shadow */
-}
-.circle-container {
-  width: 10x;            /* square container */
-  height: 10px;
-  border-radius: 50%;      /* makes the container a circle */
-  overflow: hidden;        /* hides anything outside the circle */
-  border: 2px solid #3498db; /* optional border */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* optional shadow */
-}
-
-.circle-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;       /* ensures image fills the circle */
-}
 #profile-pic {
-  width: 50px;          /* size of the circle */
-  height: 50px;         /* make height = width for a perfect circle */
-  border-radius: 50%;    /* makes it circular */
-  object-fit: cover;     /* ensures the image fills the circle nicely */
+  width: 50px;          /* very small */
+  height: 50px;         /* equal width & height */
+  border-radius: 50%;    /* makes it a perfect circle */
+  object-fit: cover;     /* ensures image fills the circle */
+  display: block;        /* makes it act like a block element */
+  margin: 10px auto 0;   /* centers it horizontally under the header */
   border: 2px solid #3498db;  /* optional border */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* optional shadow */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* optional shadow */
 }
