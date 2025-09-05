@@ -1,33 +1,34 @@
 body {
-  text-align: center;  /* center everything by default */
+  text-align: center;  /* centers heading and buttons */
   font-family: Arial, sans-serif;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
-/* Circular profile image */
-#profile-pic {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;    /* makes it circular */
-  object-fit: cover;     /* crop if not square */
-  border: 2px solid #3498db;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  display: block;
-  margin: 0 auto 20px;   /* center and add space below */
-}
+h1 {
+  color: pink;
 
-/* Buttons */
-.button-container button {
+}
+button {
   margin: 5px;
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
-  background-color: #3498db;
+  background-color: pink;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-.button-container button:hover {
+button:hover {
   background-color: #2980b9;
+}
+
+#profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;  /* perfect circle */
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;   /* centers below the heading */
+  border: 2px solid #3498db; /* optional border */
 }
