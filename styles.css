@@ -31,5 +31,4 @@ button:hover {
   object-fit: cover;
   display: block;
   margin: 10px auto;   /* centers below the heading */
-  border: 2px solid #3498db; /* optional border */
 }
