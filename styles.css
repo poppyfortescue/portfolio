@@ -38,13 +38,27 @@ button:hover {
   background-color: #2980b9;
 }
 
+.profile-container {
+  text-align: center;   /* centers the image */
+  margin-bottom: 20px;  /* space below the image */
+}
+
 #profile-pic {
-  width: 50px;          /* very small */
-  height: 50px;         /* equal width & height */
-  border-radius: 50%;    /* makes it a perfect circle */
-  object-fit: cover;     /* ensures image fills the circle */
-  display: block;        /* makes it act like a block element */
-  margin: 10px auto 0;   /* centers it horizontally under the header */
-  border: 2px solid #3498db;  /* optional border */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* optional shadow */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #3498db;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  display: inline-block; /* ensures it behaves nicely inside the container */
+}
+
+.button-container {
+  text-align: center;   /* centers the buttons */
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
 }
